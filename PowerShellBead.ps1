@@ -1,4 +1,4 @@
-$file1 = Get-Content -path "C:\temp\File1.txt"
+$file1 = Get-Content -path "Szamok.txt"
 $lineCount = 0
 
 ForEach($line in $file1) {
@@ -25,5 +25,5 @@ ForEach($line in $file1) {
 
     }
 
-    Write-Host "Sor: $lineCount, összeg: $sum"
+    Write-Host "Line: $lineCount, Sum: $sum"
 }
